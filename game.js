@@ -13,8 +13,8 @@ const genCompChoice = () => {
     return options[randIdx];
 };
 const drawGame =() => {
-    console.log("Game was draw");
-    msg.innerText("Its a Draw, Play again.");
+    // console.log("Game was draw");
+    msg.innerText="It's a Draw, Play again.";
     msg.style.backgroundColor = "yellow";
 };
 
@@ -49,7 +49,7 @@ const playGame = (userChoice) => {
             userWin = compChoice === "paper" ? false : true;
         }else if (userChoice === "paper"){
             // rock, scissors
-            userWin = compChoice === "scissors" ? true :false;
+            userWin = compChoice === "scissors" ? false :true;
         }else {
             // rock.paper
             userWin = compChoice === "rock" ? false : true;
