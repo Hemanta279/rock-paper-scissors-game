@@ -15,8 +15,8 @@ h1{
 }
 
 .choice {
-    height:120px;
-    width:120px;
+    height:150px;
+    width:150px;
     border-radius:50%;
     /* display:flex; */
 }
@@ -28,8 +28,8 @@ h1{
 }
 
 img{
-    height:100px;
-    width:100px;
+    height:140px;
+    width:140px;
     object-fit: cover;
     border-radius:50%;
 }
@@ -47,6 +47,8 @@ img{
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
 }
 
 #user-score,
@@ -60,9 +62,9 @@ img{
 #msg {
     background-color: #081b31;
     color: #fff;
-    font-size: 1rem;
+    font-size: 2rem;
     margin-top: 5rem;
     display:inline;
     border-radius: 1rem;
-    padding: 0.3rem;
+    padding: 1rem;
 }
